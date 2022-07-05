@@ -109,11 +109,6 @@ clear
 
 pprint "\nEnter Your Values Below\n\n\n"
 pprint "API ID: "; color_reset; read api_id
-pprint "\nAPI HASH: "; color_reset; read api_hash
-pprint "\nBOT TOKEN: "; color_reset; read bot_token
-pprint "\nMONGO DB URI: "; color_reset; read mongo_db
-pprint "\nLOG GROUP ID: "; color_reset; read logger
-pprint "\nPYROGRAM STRING SESSION OF ASSISTANT ACCOUNT: "; color_reset; read string_session
 pprint "\nMUSIC BOT NAME: "; color_reset; read mbt
 pprint "\nOwner Id:"; color_reset; read ownid
 
@@ -125,11 +120,7 @@ fi
 
 echo """API_ID = $api_id
 API_HASH = $api_hash
-BOT_TOKEN = $bot_token
-MONGO_DB_URI = $mongo_db
-LOG_GROUP_ID = $logger
 MUSIC_BOT_NAME = $mbt
-STRING_SESSION = $string_session
 OWNER_ID = $ownid""" > .env
 clear
 pprint "\n\n\nYour Vars have been saved Successfully!, Thanks for using Yukki Installer, now you can proceed by starting the bot with bash start!"
