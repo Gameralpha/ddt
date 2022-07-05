@@ -116,18 +116,8 @@ if [ -f .env ]; then
 	rm .env
 fi
 
-echo """API_ID = 14782914
-API_HASH = 3aa2fabe1074632cf6e2b01da083a2c6
+echo """
 MUSIC_BOT_NAME = $mbt
-BOT_TOKEN = 5380240438:AAGFsRnSRUnWpRHNsan12Dx6u4Qq8sbDuVU
-LOG_GROUP_ID = -1001635517276
-SUPPORT_CHANNEL = https://t.me/lunasupportz
-SUPPORT_GROUP = https://t.me/Official_Devil_Support
-ASSISTANT_PREFIX = .
-START_IMG_URL = https://telegra.ph/file/6630169ceca2b9811bb81.jpg
-AUTO_LEAVING_ASSISTANT = True
-OWNER_ID = 1930954213
-STRING_SESSION = BQBqyx6LMFkhsA7z8hPCFEkCl73a-YX99qzdbQVfaFBlpxy_EKIRtKgRAikoFNpoRq06Lrlt8MUUDx1_7RsQaUMKo-mEJO-QrKoSaUYqI-U-9sNVI7yDqO0wuG4bQUyR4ZiWM9piIuxCPJ8pJzr1z7R6KP9ytNsilz7S7I5H00DjKQRZDmA0GrjvTqmrGsswOG-adxPJFuiIJSS-PK8wjGpbQhU3tvKRa1-GlNv8b6ft59kzAYein5l_Nv-6s2NgIhhD-SUS0f7XTnEzYH-KfUSaolVwlKVOB3S3IjGDbcvePJaqOgjydxJ3dCuJTUL_rbvHztrM8wBWv05oUMZGYAmZfk4hRgA
 """ > .env
 clear
 pprint "\n\n\nYour Vars have been saved Successfully!, Thanks for using Yukki Installer, now you can proceed by starting the bot with bash start!"
