@@ -17,7 +17,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "14782914"))
 API_HASH = getenv("API_HASH","3aa2fabe1074632cf6e2b01da083a2c6")
 
 ## Get it from @Botfather in Telegram.
@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "1930954213").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQBqyx6LMFkhsA7z8hPCFEkCl73a-YX99qzdbQVfaFBlpxy_EKIRtKgRAikoFNpoRq06Lrlt8MUUDx1_7RsQaUMKo-mEJO-QrKoSaUYqI-U-9sNVI7yDqO0wuG4bQUyR4ZiWM9piIuxCPJ8pJzr1z7R6KP9ytNsilz7S7I5H00DjKQRZDmA0GrjvTqmrGsswOG-adxPJFuiIJSS-PK8wjGpbQhU3tvKRa1-GlNv8b6ft59kzAYein5l_Nv-6s2NgIhhD-SUS0f7XTnEzYH-KfUSaolVwlKVOB3S3IjGDbcvePJaqOgjydxJ3dCuJTUL_rbvHztrM8wBWv05oUMZGYAmZfk4hRgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
