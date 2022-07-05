@@ -119,7 +119,6 @@ if [ -f .env ]; then
 fi
 
 echo """API_ID = $api_id
-API_HASH = $api_hash
 MUSIC_BOT_NAME = $mbt
 OWNER_ID = $ownid""" > .env
 clear
